@@ -1,4 +1,106 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
-theme = "ananke"
+DefaultContentLanguage = "tr"
+title = "Love Pet Veteriner"
+theme = "meghna-hugo"
+
+# Menu
+[menu]
+    [[menu.nav]]
+    name = "Hakkımızda"
+    URL = "about"
+    weight = 2
+
+    [[menu.nav]]
+    name = "Hizmetlerimiz"
+    URL = "services"
+    weight = 3
+
+    [[menu.nav]]
+    name = "Çalışmalarımız"
+    URL = "portfolio"
+    weight = 4
+
+    [[menu.nav]]
+    name = "Hekimler"
+    URL = "our-team"
+    weight = 5
+
+    [[menu.nav]]
+    name = "İletişim"
+    URL = "contact-us"
+    weight = 6
+
+# Site params
+[params]
+home= "Anasayfa"
+logo = "images/logo.png"
+
+    # Banner Section
+    [params.banner]
+    enable = true
+    bgImage = "images/slider/hero-area.jpg"
+    icon = "tf-ion-play"
+    heading = "Size Nasıl Yardımcı Olabiliriz?"
+    content= "Şanlıurfa'nın en iyi ve dinamik pet kliniğiyle tanışın. Minik misafirlerimizi sevgi dolu hizmet anlayışıyla tedavi etmek için kliniğimize bekliyoruz."
+    btn = true
+    btnText="Tanışalım"
+    btnURL="#services"
+
+    # counter
+    [params.counter]
+    enable = true
+    bgImage = "images/backgrounds/bg-1.jpg"
+        [[params.counter.counterItem]]
+        title = "Mutlu Müşteriler"
+        icon = "tf-ion-android-happy"
+        count = "320"
+
+        [[params.counter.counterItem]]
+        title = "Tamamlanan Tedaviler"
+        icon = "tf-ion-archive"
+        count = "565"
+
+        [[params.counter.counterItem]]
+        title = "Olumlu Geribildirimler"
+        icon = "tf-ion-thumbsup"
+        count = "95"
+
+        [[params.counter.counterItem]]
+        title = "Tüketilen Kahve"
+        icon = "tf-ion-coffee"
+        count = "2500"
+
+    # footer
+    [params.footer]
+        copyright = "Themefisher Team"
+        copyrightURL = "http://www.themefisher.com"
+
+        # social Icons
+        [[params.footer.socialIcon]]
+        icon = "tf-ion-social-facebook"
+        url = "#"
+
+        [[params.footer.socialIcon]]
+        icon = "tf-ion-social-twitter"
+        url = "#"
+
+        [[params.footer.socialIcon]]
+        icon = "tf-ion-social-google-outline"
+        url = "#"
+
+        [[params.footer.socialIcon]]
+        icon = "tf-ion-social-youtube"
+        url = "#"
+
+        [[params.footer.socialIcon]]
+        icon = "tf-ion-social-linkedin"
+        url = "#"
+
+        [[params.footer.socialIcon]]
+        icon = "tf-ion-social-dribbble-outline"
+        url = "#"
+
+        [[params.footer.socialIcon]]
+        icon = "tf-ion-social-pinterest-outline"
+        url = "#"

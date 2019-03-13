@@ -1,0 +1,17 @@
+enable : true
+heading : Bizimle İletişime
+headingSpan : Geçin
+title : İletişim Detayları
+content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, vero, provident, eum eligendi blanditiis ex explicabo vitae nostrum facilis asperiores dolorem illo officiis ratione vel fugiat dicta laboriosam labore adipisci.
+enable_maps : false
+mapLatitude : 51.5223477
+mapLongitude: -0.1622023
+contactDetails :
+  - icon : tf-map-pin
+    info : "Veysel Karani Mah. Yunus Emre Cd, 468. Sk. No:3A, 63040 Haliliye"
+
+  - icon : tf-ion-iphone
+    info : "Telefon: 0542 713 90 90"
+
+  - icon : tf-ion-ios-email-outline
+    info : "Email: lovepetveteriner@gmail.com"
