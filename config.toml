@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "/"
 languageCode = "en-us"
 DefaultContentLanguage = "tr"
 title = "Love Pet Veteriner"
