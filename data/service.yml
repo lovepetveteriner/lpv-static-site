@@ -1,28 +1,29 @@
 enable : true
-heading : Size
-headingSpan : Hizmetlerimiz
+heading : Sağladığımız
+headingSpan : Hizmetler
 serviceItem :
-  - icon : tf-globe
-    title : WordPress Theme
+  - icon : tf-ion-laptop
+    title : Muayene/Teşhis/Tedavi
     content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
 
-  - icon : tf-ion-laptop
-    title : Responsive Design
+  - icon : tf-globe
+    title : Aşılama Programı
     content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+
 
   - icon : tf-genius
-    title : Media &amp; Advertisement
+    title :  İç Dış Paraziter Uygulama
     content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
 
   - icon : tf-dial
-    title : Graphic Design
+    title : Pet Kuaför
     content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
 
   - icon : tf-target3
-    title : Apps Development
+    title : Koruyucu Hekimlik
     content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
 
   - icon : tf-lifesaver
-    title : Networking
+    title : Pet Mama
     content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
 

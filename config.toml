@@ -1,5 +1,5 @@
 baseURL = "/"
-languageCode = "en-us"
+languageCode = "tr"
 DefaultContentLanguage = "tr"
 title = "Love Pet Veteriner"
 theme = "meghna-hugo"
@@ -41,11 +41,11 @@ logo = "images/logo.png"
     enable = true
     bgImage = "images/slider/hero-area.jpg"
     icon = "tf-ion-play"
-    heading = "Size Nasıl Yardımcı Olabiliriz?"
+    heading = "Onlar Bize Emanet"
     content= "Şanlıurfa'nın en iyi ve dinamik pet kliniğiyle tanışın. Minik misafirlerimizi sevgi dolu hizmet anlayışıyla tedavi etmek için kliniğimize bekliyoruz."
     btn = true
     btnText="Tanışalım"
-    btnURL="#services"
+    btnURL="#about"
 
     # counter
     [params.counter]
