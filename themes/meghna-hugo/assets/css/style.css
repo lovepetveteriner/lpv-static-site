@@ -29,12 +29,12 @@ h4,
 h5,
 h6 {
   font-weight: 400;
-  font-family: "Quattrocento Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #afbac4;
 }
 
 p {
-  font-family: "Quattrocento Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 [scroll-behavior=smooth] {
@@ -454,7 +454,7 @@ a:hover {
 .header-bradcrumb .active {
   color: #cfcfcf;
   font-weight: 200;
-  font-family: "Quattrocento Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .header-bradcrumb a:hover {
