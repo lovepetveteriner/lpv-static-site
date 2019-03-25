@@ -2,105 +2,152 @@ baseURL = "/"
 languageCode = "tr"
 DefaultContentLanguage = "tr"
 title = "Love Pet Veteriner"
-theme = "meghna-hugo"
+theme = "navigator-hugo"
 
-# Menu
-[menu]
-    [[menu.nav]]
-    name = "Hakkımızda"
-    URL = "about"
-    weight = 2
+# Build robots.txt file
+enableRobotsTXT = true
+# google analytics tracking id
+googleAnalytics = ""
 
-    [[menu.nav]]
-    name = "Hizmetlerimiz"
-    URL = "services"
-    weight = 3
+enableGitInfo = false
+pygmentsCodeFences = true
 
-    [[menu.nav]]
-    name = "Çalışmalarımız"
-    URL = "portfolio"
-    weight = 4
+# Multilangues setup
+# Renders the default content language in subdir, e.g. /en/. The root directory / will redirect to /en/
+# defaultContentLanguageInSubdir = true
+# DefaultContentLanguage = "en"
 
-    [[menu.nav]]
-    name = "Hekimler"
-    URL = "our-team"
-    weight = 5
-
-    [[menu.nav]]
-    name = "İletişim"
-    URL = "contact-us"
-    weight = 6
-
-# Site params
+# Site Params
 [params]
-home= "Anasayfa"
-logo = "images/logo.png"
+    logo = "images/logo.png"
 
-    # Banner Section
-    [params.banner]
-    enable = true
-    bgImage = "images/slider/hero-area.jpg"
-    icon = "tf-ion-play"
-    heading = "Onlar Bize Emanet"
-    content= "Şanlıurfa'nın en iyi ve dinamik pet kliniğiyle tanışın. Minik misafirlerimizi sevgi dolu hizmet anlayışıyla tedavi etmek için kliniğimize bekliyoruz."
-    btn = true
-    btnText="Tanışalım"
-    btnURL="#about"
+    # Gestion des langues : FR / EN / NL / DE
+    [[Params.listeLangues]]
+    code = "tr"
 
-    # counter
-    [params.counter]
-    enable = true
-    bgImage = "images/backgrounds/bg-1.jpg"
-        [[params.counter.counterItem]]
-        title = "Mutlu Müşteriler"
-        icon = "tf-ion-android-happy"
-        count = "320"
+# Gestion des langues : FR / EN / NL / DE
+[Languages]
+    ############ 1 - Site en FRANCAIS
+    [Languages.tr]
+    weight = 1
+    languageCode = "tr"
+    title = "Lovepet Veteriner Kliniği, Şanlıurfa"
+    dateFormat = "2 January 2006"
 
-        [[params.counter.counterItem]]
-        title = "Tamamlanan Tedaviler"
-        icon = "tf-ion-archive"
-        count = "565"
+    home = "Anasayfa"
+    logo = "images/logo.png"
+    menufixed = false
 
-        [[params.counter.counterItem]]
-        title = "Olumlu Geribildirimler"
-        icon = "tf-ion-thumbsup"
-        count = "95"
+    footerDescription = "Lovepet Veteriner Kliniği'miz Afyon Kocatepe Üniversitesi mezunu Veteriner Hekim Yusuf Sevgi öncülüğünde siz değerli hayvan sahipleri ve minik dostlarımızın hizmetine açılmıştır."
+    footerServiceTitle = "Hizmetlerimiz"
+    footerQuicklinkTitle = "FRANCAIS Quick links"
+    footerAboutTitle = "Hakkımızda"
+    # footerSubscribeTitle = "FRANCAIS Subscribe"
 
-        [[params.counter.counterItem]]
-        title = "Tüketilen Kahve"
-        icon = "tf-ion-coffee"
-        count = "2500"
+    # Hero Area Section
+    [Languages.tr.params.hero]
+        enable  = true
+        heading = "Onlar bize emanet"
+        description = "Şanlıurfa'nın en iyi ve en dinamik pet kliniğiyle tanışın. Minik misafirlerimizi sevgi dolu hizmet anlayışıyla tedavi etmek için kliniğimize bekliyoruz."
+        button  = true
+        btnText = "RANDEVU ALIN"
+        btnURL  = "#"
+        videoThumb = "images/slider/hero-area.jpg"
+        videoURL   = "https://www.youtube.com/embed/g3-VxLQO7do"
 
-    # footer
-    [params.footer]
-        copyright = "Themefisher Team"
-        copyrightURL = "http://www.themefisher.com"
+    # About 2 Section
+    [Languages.tr.params.aboutSm]
+        enable  = true
+        title   = "İşimizi tutkuyla yapmaya devam ediyoruz"
+        description = "Lovepet Veteriner Kliniği'miz Afyon Kocatepe Üniversitesi mezunu Veteriner Hekim Yusuf Sevgi öncülüğünde siz değerli hayvan sahipleri ve minik dostlarımızın hizmetine açılmıştır."
 
-        # social Icons
-        [[params.footer.socialIcon]]
-        icon = "tf-ion-social-facebook"
-        url = "#"
+    # Blog Section On Homepage
+    [Languages.tr.params.blog]
+        enable  = false
+        topTitle= "OUR UNTOLD STORY"
+        title   = "FRANCAIS Blog."
+        subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
 
-        [[params.footer.socialIcon]]
-        icon = "tf-ion-social-twitter"
-        url = "#"
+    # Contact Section
+    [Languages.tr.params.contact]
+        enable  = true
+        topTitle= "BIZE BIR NOT BIRAKIN"
+        title   = "Bize Ulaşın."
+        subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
+        address = "Veysel Karani Mah. <br> Yunus Emre Cd, 468. Sk. No:3A, <br> 63040 Haliliye/Şanlıurfa"
+        phone   = "0542 713 90 90"
+        fax     = "0542 713 90 90"
+        # facebook= "https://www.facebook.com/"
+        # twitter = "https://twitter.com/"
+        # linkedin= "https://www.linkedin.com/"
+        # dribbble= "https://dribbble.com/"
+        instagram= "https://www.instagram.com/lovepetveteriner/"
+        mapLatitude = "37.166996"
+        mapLongitude= "38.816736"
+        mapMarker   = "images/marker.png"
 
-        [[params.footer.socialIcon]]
-        icon = "tf-ion-social-google-outline"
-        url = "#"
+    # Call to Action Section on About Page
+    [Languages.tr.params.cta]
+        enable  = true
+        bg      = "images/call-to-action/call-to-action-bg-2.jpg"
+        title   = "FRANCAIS Let's Create Something Together"
+        subtitle= "Proin gravida nibh vel velit auctor aliquet. Aenean sollicudin bibendum auctor, <br> nisi elit consequat ipsum, nesagittis sem nid elit. Duis sed odio sitain elit."
+        btnText = "Nous contacter"
 
-        [[params.footer.socialIcon]]
-        icon = "tf-ion-social-youtube"
-        url = "#"
+# We Used Themefisher Icon font for Icon, for more details check this github repository - https://github.com/themefisher/themefisher-font
 
-        [[params.footer.socialIcon]]
-        icon = "tf-ion-social-linkedin"
-        url = "#"
+# Site Menus
+[menu]
+    # Navbar Menus
+    [[menu.nav]]
+        name    = "about"
+        url     = "about"
+        weight  = 2
+    [[menu.nav]]
+        name    = "service"
+        url     = "service"
+        weight  = 3
+    [[menu.nav]]
+        name    = "portfolio"
+        url     = "portfolio"
+        weight  = 4
+    [[menu.nav]]
+        name    = "blog"
+        url     = "blog"
+        weight  = 5
+    [[menu.nav]]
+        name    = "contact"
+        url     = "contact"
+        weight  = 6
 
-        [[params.footer.socialIcon]]
-        icon = "tf-ion-social-dribbble-outline"
-        url = "#"
+    # Footer Service Menu
+    [[menu.service]]
+        name    = "graphicdesign"
+        url     = "service"
+        weight  = 1
+    [[menu.service]]
+        name    = "webdesign"
+        url     = "service"
+        weight  = 2
+    [[menu.service]]
+        name    = "webdevelopment"
+        url     = "service"
+        weight  = 3
 
-        [[params.footer.socialIcon]]
-        icon = "tf-ion-social-pinterest-outline"
-        url = "#"
+    # Footer Quick links Menu
+    [[menu.quicklink]]
+        name    = "partners"
+        url     = "about"
+        weight  = 1
+    [[menu.quicklink]]
+        name    = "about"
+        url     = "about"
+        weight  = 2
+    [[menu.quicklink]]
+        name    = "faqs"
+        url     = "about"
+        weight  = 3
+    [[menu.quicklink]]
+        name    = "badges"
+        url     = "about"
+        weight  = 4
