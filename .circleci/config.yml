@@ -10,8 +10,8 @@ jobs:
     steps:
       - checkout
       - run: HUGO_ENV=production hugo -v -d $HUGO_BUILD_DIR
-      - run:
-          name: test generated html files
-          command: |
-            htmlproofer $HUGO_BUILD_DIR --allow-hash-href --check-html \
-            --empty-alt-ignore --disable-external
+      # - run:
+      #     name: test generated html files
+      #     command: |
+      #       htmlproofer $HUGO_BUILD_DIR --allow-hash-href --check-html \
+      #       --empty-alt-ignore --disable-external
