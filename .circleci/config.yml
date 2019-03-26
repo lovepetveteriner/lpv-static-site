@@ -28,9 +28,20 @@ jobs:
             mv /tmp/docker/* /usr/bin
 
       - run:
+          name: setup env variables
+          command: |
+            echo "export TAG_SUFFIX=$(date +%Y%m%d%H%M%S)" >> $BASH_ENV
+            echo 'export IMAGE="lovepetveteriner/lpv-static-site:${CIRCLE_BRANCH}-${TAG_SUFFIX}"' >> $BASH_ENV
+      - run:
           name: build and push docker image
           command: |
-            TAG=0.1.$CIRCLE_BUILD_NUM
-            docker build -t lovepetveteriner/lpv-static-site:$TAG .
+            docker build -t $IMAGE .
             docker login -u $DOCKER_USER -p $DOCKER_PASS
-            docker push lovepetveteriner/lpv-static-site:$TAG
+            docker push $IMAGE
+      - add_ssh_keys:
+          fingerprints:
+            - "80:2d:9c:70:d7:07:3f:fc:25:8d:b1:ed:4b:cd:96:73"
+      - run:
+          name: deploy app to server via Docker
+          command: |
+            ssh -o StrictHostKeyChecking=no selimssevgi@lovepetveteriner.com "/bin/bash ./deploy_app.sh ${IMAGE}"
