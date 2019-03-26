@@ -1,0 +1,23 @@
+enable    : true
+topTitle  : Hizmetlerimizin Listesi
+title     : Hizmetlerimiz.
+subtitle  : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!
+item      :
+  - icon  : tf-ion-ios-copy-outline
+    title : Muayene/Teşhis/Tedavi
+    list  :
+      - name : Muayene
+      - name : Teşhiş
+      - name : Tedavi
+
+  - icon  : tf-ion-ios-alarm-outline
+    title : Aşılama Programı
+    list  :
+      - name : Kedi Aşıları
+      - name : Köpek Aşıları
+
+  - icon  : tf-ion-ios-book-outline
+    title : Pet Kuaför
+    list  :
+      - name : Tüy Traşı
+      - name : Tırnak Kesimi

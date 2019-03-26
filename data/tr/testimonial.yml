@@ -1,0 +1,21 @@
+enable : true
+item    :
+  - quote       : >
+      LovePet veteriner kliniğinde hekim arkadaşların bilgi,beceri,tecrübe ve klinikte bulunan teknolojik alet ve ekipmanla birleşmesiyle çıkan sonuç küçük dostlarınızı içiniz rahat bir şekilde uzman ellere bırakabilirisiniz. Sıcak samimi güvenilir bir ortam sizi tanıdığım için mutluyum ilginize çok teşekkür ederim.
+    clientName  : Selim Karakaş
+    clientDesignation: bir hafta önce
+
+  - quote       : >
+      Sokaktan sahiplendiğim köpeğimi götürdüğüm klinik kendisi :) rex’e olan ilgi, alakadan çok memnun kaldım. Düzenli ve detaylı tedaviniz sayesinde rex de ben de daha mutluyuz. Bunun yanında kliniğin temizliği ve ürün çeşitliliğinin olması da ayrıca güzel. Bir canı sokaktan kurtarmama yardımcı olduğunuz için teşekkür ederim :)
+    clientName  : Tremayne Tippins
+    clientDesignation: bir ay önce
+
+  - quote       : >
+      Bugün ilk defa kedimi götürdüm ve çok memnun kaldım. Yusuf beyin işini severek ve özenle yapması dikkatimi çekti. Klinikte hayvan dostunuzun tüm ihtiyaçlarını karsilayabilirsiniz. Titiz, temiz, güler yüzlü, işini profesyonelce yapan, kaliteye önem veren hayvan sever bir veteriner arıyorsanız Lovepet'i tavsiye ederim. Yusuf hocaya ilgisi ve özeni için teşekkür ederim.
+    clientName  : Nurşen Özkan
+    clientDesignation: bir ay önce
+
+  - quote       : >
+      Bu benim gittiğim 2. Veteriner kliniğiydi ilk olarak bende bıraktıkları izlenim baya iyiydi köpeğim rahat rahat hareket edebildi ve hocalarımız baya ilgiliydi  benim için önemli olan köpeğime olan ilgi alakaydı bunu sağladıkları için  lovepet diyorum
+    clientName  : Dilan Altun
+    clientDesignation: bir ay önce

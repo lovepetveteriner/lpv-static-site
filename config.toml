@@ -40,7 +40,7 @@ pygmentsCodeFences = true
 
     footerDescription = "Lovepet Veteriner Kliniği'miz Afyon Kocatepe Üniversitesi mezunu Veteriner Hekim Yusuf Sevgi öncülüğünde siz değerli hayvan sahipleri ve minik dostlarımızın hizmetine açılmıştır."
     footerServiceTitle = "Hizmetlerimiz"
-    footerQuicklinkTitle = "FRANCAIS Quick links"
+    footerQuicklinkTitle = "Hızlı Bağlantılar"
     footerAboutTitle = "Hakkımızda"
     # footerSubscribeTitle = "FRANCAIS Subscribe"
 
@@ -65,10 +65,10 @@ pygmentsCodeFences = true
 
     # Blog Section On Homepage
     [Languages.tr.params.blog]
-        enable  = false
-        topTitle= "OUR UNTOLD STORY"
-        title   = "FRANCAIS Blog."
-        subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
+        enable  = true
+        topTitle= "Sizinle Paylaştıklarımız"
+        title   = "Lovepet Blog"
+        subtitle= "Lovepet Veteriner Kliniği ile ilgili gelişmeleri ve yenilikleri sizlerle paylaşıyoruz!"
 
     # Contact Section
     [Languages.tr.params.contact]
@@ -139,7 +139,7 @@ pygmentsCodeFences = true
     # Footer Quick links Menu
     [[menu.quicklink]]
         name    = "partners"
-        url     = "about"
+        url     = "#"
         weight  = 1
     [[menu.quicklink]]
         name    = "about"
@@ -147,7 +147,7 @@ pygmentsCodeFences = true
         weight  = 2
     [[menu.quicklink]]
         name    = "faqs"
-        url     = "about"
+        url     = "#"
         weight  = 3
     [[menu.quicklink]]
         name    = "badges"

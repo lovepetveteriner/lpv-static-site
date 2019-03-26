@@ -1,0 +1,42 @@
+enable  : true
+topTitle: Geçmiş Çalışmalarımız
+title   : Çalışmalarımızdan Bazıları.
+subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!
+
+filtermenu :
+  - name      : Cerrah
+    category  : cerrah
+
+  - name      : Kuaför
+    category  : kuafor
+
+  - name      : Aşılama
+    category  : asilama
+
+  - name      : Tedavi
+    category  : tedavi
+
+item   :
+  - title : AirBnB Postcard
+    image : images/portfolio/tedavi-1.jpg
+    category  : tedavi
+
+  - title : D Design
+    image : images/portfolio/cerrah-2.jpg
+    category  : cerrah
+
+  - title : Xbox 360
+    image : images/portfolio/cerrah-3.jpg
+    category  : cerrah tedavi
+
+  - title : D Design
+    image : images/portfolio/tedavi-2.jpg
+    category  : cerrah tedavi
+
+  - title : Xbox 360
+    image : images/portfolio/cerrah-3.jpg
+    category  : cerrah tedavi
+
+  - title : AirBnB Postcard
+    image : images/portfolio/asilama-1.jpg
+    category  : cerrah asilama

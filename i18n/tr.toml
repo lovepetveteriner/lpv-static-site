@@ -1,0 +1,24 @@
+[about]
+other = "Hakkımızda"
+[service]
+other = "Hizmetlerimiz"
+[portfolio]
+other = "Çalışmalarımız"
+[blog]
+other = "Blog"
+[contact]
+other = "İletişim"
+
+[graphicdesign]
+other = "EN Graphic Design"
+[webdesign]
+other = "EN Web Design"
+[webdevelopment]
+other = "EN Web Development"
+
+[partners]
+other = "Partnerler"
+[faqs]
+other = "SSS"
+[badges]
+other = "EN Badges"
