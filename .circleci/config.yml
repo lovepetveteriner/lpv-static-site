@@ -1,0 +1,17 @@
+version: 2
+
+jobs:
+  build:
+    docker:
+      - image: cibuilds/hugo:latest
+    working_directory: ~/hugo
+    environment:
+      HUGO_BUILD_DIR: ~/hugo/public
+    steps:
+      - checkout
+      - run: HUGO_ENV=production hugo -v -d $HUGO_BUILD_DIR
+      - run:
+          name: test generated html files
+          command: |
+            htmlproofer $HUGO_BUILD_DIR --allow-hash-href --check-html \
+            --empty-alt-ignore --disable-external
