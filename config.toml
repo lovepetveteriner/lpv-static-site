@@ -54,6 +54,8 @@ pygmentsCodeFences = true
         btnURL  = "#"
         videoThumb = "images/slider/hero-area.jpg"
         videoURL   = "https://www.youtube.com/embed/g3-VxLQO7do"
+        onlineShopBtnText = "ONLINE MAGAZAMIZ"
+        onlineShopBtnURL  = "https://www.n11.com/magaza/lovepetmama"
 
     # About 2 Section
     [Languages.tr.params.aboutSm]
