@@ -1,0 +1,21 @@
+enable  : true
+topTitle: Takım Üyelerimiz
+title   : Takımımız.
+subtitle: Çalışanlarımız hayvan sahiplerine ve dostlarına en iyi hizmeti verebilmek için çalışıyorlar.
+
+member  :
+  - image         : images/team/team-1.jpg
+    name          : Yusuf Sevgi
+    designation   : Veteriner Hekim
+    description   : >
+      Afyon Kocatepe Üniversitesi Veteriner Fakültesi'nden mezun olmuş. İşine aşık kurucu veteriner hekimimiz.
+    # facebookURL   : https://www.facebook.com/
+    # twitterURL    : https://twitter.com/
+    # gplusURL      : https://plus.google.com/
+    # dribbbleURL   : https://dribbble.com/
+
+  - image         : images/team/team-2.jpg
+    name          : Mehmet Salih  Karadağ
+    designation   : Veteriner Hekim
+    description   : >
+      Harran Üniversitesi Veteriner Fakültesi mezunu yardımcı veteriner hekimimiz. İşini özenle ve dikkatle yapıyor.

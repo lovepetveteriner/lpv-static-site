@@ -75,11 +75,11 @@ pygmentsCodeFences = true
         enable  = true
         topTitle= "BIZE BIR NOT BIRAKIN"
         title   = "Bize Ulaşın."
-        subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
+        subtitle= "Sorularınızı, önerilerizi ve isteklerinizi bizimle paylaşabilirsiniz."
         address = "Veysel Karani Mah. <br> Yunus Emre Cd, 468. Sk. No:3A, <br> 63040 Haliliye/Şanlıurfa"
         phone   = "0542 713 90 90"
         fax     = "0542 713 90 90"
-        # facebook= "https://www.facebook.com/"
+        facebook= "https://www.facebook.com/Lovepetveteriner/"
         # twitter = "https://twitter.com/"
         # linkedin= "https://www.linkedin.com/"
         # dribbble= "https://dribbble.com/"
@@ -94,7 +94,7 @@ pygmentsCodeFences = true
         bg      = "images/call-to-action/call-to-action-bg-2.jpg"
         title   = "FRANCAIS Let's Create Something Together"
         subtitle= "Proin gravida nibh vel velit auctor aliquet. Aenean sollicudin bibendum auctor, <br> nisi elit consequat ipsum, nesagittis sem nid elit. Duis sed odio sitain elit."
-        btnText = "Nous contacter"
+        btnText = "Bize Ulaşın"
 
 # We Used Themefisher Icon font for Icon, for more details check this github repository - https://github.com/themefisher/themefisher-font
 
@@ -151,5 +151,5 @@ pygmentsCodeFences = true
         weight  = 3
     [[menu.quicklink]]
         name    = "badges"
-        url     = "about"
+        url     = "#"
         weight  = 4
