@@ -23,7 +23,7 @@
             </div>
             {{ "<!-- Contact Form -->" | safeHTML }}
             <div class="contact-form col-12 col-md-6 ">
-                <form id="contact-form" method="post" action="sendmail.php" role="form">
+                <form id="contact-form" method="post" action="http:localhost:9991/non-secured/send-email" role="form">
                     <div class="form-group">
                         <input type="text" placeholder="Adınız" class="form-control" name="name" id="name">
                     </div>
@@ -41,7 +41,7 @@
                     </div>
 
                     <div id="mail-success" class="success">
-                        Thank you. The Mailman is on His Way :)
+                        Teşekkürler. Mesajınız minik kuşlar bize ulaştıracaktır :)
                     </div>
 
                     <div id="mail-fail" class="error">
