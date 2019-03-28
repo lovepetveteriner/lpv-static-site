@@ -34,8 +34,9 @@ pygmentsCodeFences = true
     title = "Lovepet Veteriner Kliniği, Şanlıurfa"
     dateFormat = "2 January 2006"
 
-    home = "Anasayfa"
+    home = "ANASAYFA"
     logo = "images/logo.png"
+    logoText =  "LOVEPET VETERİNER KLİNİĞİ"
     menufixed = false
 
     footerDescription = "Lovepet Veteriner Kliniği'miz Afyon Kocatepe Üniversitesi mezunu Veteriner Hekim Yusuf Sevgi öncülüğünde siz değerli hayvan sahipleri ve minik dostlarımızın hizmetine açılmıştır."
