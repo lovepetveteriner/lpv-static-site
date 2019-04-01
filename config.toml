@@ -1,7 +1,7 @@
 baseURL = "/"
 languageCode = "tr"
 DefaultContentLanguage = "tr"
-title = "Love Pet Veteriner"
+title = "Lovepet Veteriner"
 theme = "navigator-hugo"
 
 # Build robots.txt file
@@ -74,7 +74,7 @@ pygmentsCodeFences = true
     # Contact Section
     [Languages.tr.params.contact]
         enable  = true
-        topTitle= "BIZE BIR NOT BIRAKIN"
+        topTitle= "BİZE BİR NOT BIRAKIN"
         title   = "Bize Ulaşın."
         subtitle= "Sorularınızı, önerilerizi ve isteklerinizi bizimle paylaşabilirsiniz."
         address = "Veysel Karani Mah. <br> Yunus Emre Cd, 468. Sk. No:3A, <br> 63040 Haliliye/Şanlıurfa"
@@ -104,15 +104,15 @@ pygmentsCodeFences = true
     # Navbar Menus
     [[menu.nav]]
         name    = "about"
-        url     = "about"
+        url     = "hakkimizda"
         weight  = 2
     [[menu.nav]]
         name    = "service"
-        url     = "service"
+        url     = "hizmetlerimiz"
         weight  = 3
     [[menu.nav]]
         name    = "portfolio"
-        url     = "portfolio"
+        url     = "calismalarimiz"
         weight  = 4
     [[menu.nav]]
         name    = "blog"
@@ -120,21 +120,21 @@ pygmentsCodeFences = true
         weight  = 5
     [[menu.nav]]
         name    = "contact"
-        url     = "contact"
+        url     = "iletisim"
         weight  = 6
 
     # Footer Service Menu
     [[menu.service]]
         name    = "graphicdesign"
-        url     = "service"
+        url     = "hizmetlerimiz"
         weight  = 1
     [[menu.service]]
         name    = "webdesign"
-        url     = "service"
+        url     = "hizmetlerimiz"
         weight  = 2
     [[menu.service]]
         name    = "webdevelopment"
-        url     = "service"
+        url     = "hizmetlerimiz"
         weight  = 3
 
     # Footer Quick links Menu
@@ -143,8 +143,8 @@ pygmentsCodeFences = true
         url     = "#"
         weight  = 1
     [[menu.quicklink]]
-        name    = "about"
-        url     = "about"
+        name    = "aboutfooter"
+        url     = "hakkimizda"
         weight  = 2
     [[menu.quicklink]]
         name    = "faqs"

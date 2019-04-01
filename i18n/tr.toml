@@ -1,5 +1,7 @@
 [about]
 other = "HAKKIMIZDA"
+[aboutfooter]
+other = "Hakkımızda"
 [service]
 other = "HİZMETLERİMİZ"
 [portfolio]
@@ -10,11 +12,11 @@ other = "BLOG"
 other = "İLETİŞİM"
 
 [graphicdesign]
-other = "EN Graphic Design"
+other = "Aşı Programı"
 [webdesign]
-other = "EN Web Design"
+other = "Pet Koaför"
 [webdevelopment]
-other = "EN Web Development"
+other = "Muayene/Teşhis/Tedavi"
 
 [partners]
 other = "Partnerler"
