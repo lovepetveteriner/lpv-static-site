@@ -85,6 +85,7 @@ pygmentsCodeFences = true
         # linkedin= "https://www.linkedin.com/"
         # dribbble= "https://dribbble.com/"
         instagram= "https://www.instagram.com/lovepetveteriner/"
+        youtube= "https://www.youtube.com/channel/UCaWGbEl6SJgQbzcdGnN5E8A"
         mapLatitude = "37.166996"
         mapLongitude= "38.816736"
         mapMarker   = "images/marker.png"
