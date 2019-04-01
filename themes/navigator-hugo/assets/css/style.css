@@ -606,6 +606,11 @@ a:focus, a:hover {
   margin-top: 50px;
 }
 
+/** fixes collapsing of buttons on small screens */
+.hero-area .block .list-inline-item {
+  margin-bottom: 10px;
+}
+
 .hero-area .block .btn-main, .hero-area .block .btn-main-sm {
   margin-right: 8px;
 }
