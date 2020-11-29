@@ -48,21 +48,21 @@ pygmentsCodeFences = true
     # Hero Area Section
     [Languages.tr.params.hero]
         enable  = true
-        heading = "Onlar bize emanet"
+        heading = "Onlar herşeyin en mükemmelini hak ediyor"
         description = "Şanlıurfa'nın en iyi ve en dinamik pet kliniğiyle tanışın. Minik misafirlerimizi sevgi dolu hizmet anlayışıyla tedavi etmek için kliniğimize bekliyoruz."
         button  = true
         btnText = "RANDEVU ALIN"
         btnURL  = "#"
         videoThumb = "images/slider/hero-area.jpg"
         videoURL   = "https://www.youtube.com/embed/g3-VxLQO7do"
-        onlineShopBtnText = "ONLINE MAGAZAMIZ"
-        onlineShopBtnURL  = "https://www.n11.com/magaza/lovepetmama"
+        # onlineShopBtnText = "ONLINE MAGAZAMIZ"
+        # onlineShopBtnURL  = "https://www.n11.com/magaza/lovepetmama"
 
     # About 2 Section
     [Languages.tr.params.aboutSm]
         enable  = true
         title   = "İşimizi tutkuyla yapmaya devam ediyoruz"
-        description = "Lovepet Veteriner Kliniği'miz Afyon Kocatepe Üniversitesi mezunu Veteriner Hekim Yusuf Sevgi öncülüğünde siz değerli hayvan sahipleri ve minik dostlarımızın hizmetine açılmıştır."
+        description = "Lovepet Veteriner Kliniği olarak amacımız; küçük dostlarımızın sağlıklı ve mutlu bir yaşam sürmeleri için elimizden gelen tüm desteği, yeni nesil tedavi yöntemleri ve operasyon teknikleri ile modern teknolojileri tecrübemizle birleştirerek onlara sunmaktır."
 
     # Blog Section On Homepage
     [Languages.tr.params.blog]
@@ -77,7 +77,7 @@ pygmentsCodeFences = true
         topTitle= "BİZE BİR NOT BIRAKIN"
         title   = "Bize Ulaşın."
         subtitle= "Sorularınızı, önerilerizi ve isteklerinizi bizimle paylaşabilirsiniz."
-        address = "Veysel Karani Mah. <br> Yunus Emre Cd, 468. Sk. No:3A, <br> 63040 Haliliye/Şanlıurfa"
+        address = "Veysel Karani Mah. <br> 496/2 Sk. No:4/A, <br> 63040 Haliliye/Şanlıurfa"
         phone   = "0542 713 90 90"
         fax     = "0542 713 90 90"
         facebook= "https://www.facebook.com/Lovepetveteriner/"
@@ -86,8 +86,8 @@ pygmentsCodeFences = true
         # dribbble= "https://dribbble.com/"
         instagram= "https://www.instagram.com/lovepetveteriner/"
         youtube= "https://www.youtube.com/channel/UCaWGbEl6SJgQbzcdGnN5E8A"
-        mapLatitude = "37.166996"
-        mapLongitude= "38.816736"
+        mapLatitude = "37.16700"
+        mapLongitude= "38.82099"
         mapMarker   = "images/marker.png"
 
     # Call to Action Section on About Page
